@@ -5,6 +5,7 @@ const Static = require("koa-static");
 const app = new Koa();
 const router = new Router();
 
+const PORT = process.env.PORT || 5000;
 const range = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
 router.get("/", (ctx) => {
@@ -68,6 +69,6 @@ app
   .use(router.allowedMethods())
   .use(Static(__dirname + "/images"));
 
-app.listen(3000, () => {
-  console.log(`Server listening in port 3000`);
+app.listen(PORT, () => {
+  console.log(`Server listening in port ${PORT}`);
 });
