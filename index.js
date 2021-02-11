@@ -64,6 +64,6 @@ app
   .use(router.allowedMethods())
   .use(Static(__dirname + "/images"));
 
-app.listen(80, "0.0.0.0", () => {
+app.listen(80, () => {
   console.log(`Server listening in port 80`);
 });
