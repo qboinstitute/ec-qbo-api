@@ -1,6 +1,7 @@
 const Koa = require("koa");
 const Router = require("koa-router");
 const Static = require("koa-static");
+const cors = require("@koa/cors");
 
 const app = new Koa();
 const router = new Router();
@@ -65,6 +66,7 @@ router.get("/products", (ctx) => {
 });
 
 app
+  .use(cors())
   .use(router.routes())
   .use(router.allowedMethods())
   .use(Static(__dirname + "/images"));
