@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name": "Promociones",
+        "imagen": "promociones.svg"
+    },
+    {
+        "id": 2,
+        "name": "Dim Sum",
+        "imagen": "dia-sum.svg"
+    },
+    {
+        "id": 3,
+        "name": "Menu",
+        "imagen": "menu.svg"
+    },
+    {
+        "id": 4,
+        "name": "Sopas",
+        "imagen": "sopas.svg"
+    },
+    {
+        "id": 5,
+        "name": "Bebidas",
+        "imagen": "bebidas.svg"
+    },
+    {
+        "id": 6,
+        "name": "Platos dulces",
+        "imagen": "platos-dulces.svg"
+    },
+    {
+        "id": 7,
+        "name": "Platos salados",
+        "imagen": "platos-salados.svg"
+    },
+    {
+        "id": 8,
+        "name": "A la Carta",
+        "imagen": "a-la-carta.svg"
+    },
+    {
+        "id": 9,
+        "name": "Familiar",
+        "imagen": "familiar.svg"
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "group": "Plato a la carta, platos dulces",
+        "name": "Tipakay",
+        "price": 22,
+        "imagen": "1.png"
+    },
+    {
+        "id": 2,
+        "group": "Bebidas, promociones",
+        "name": "Tallarín de pollo",
+        "price": 22,
+        "imagen": "2.png"
+    },
+    {
+        "id": 3,
+        "group": "Bebidas, promociones",
+        "name": "Sajofan",
+        "price": 22,
+        "imagen": "3.png"
+    }
+]

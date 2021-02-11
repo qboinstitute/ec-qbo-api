@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "group": "Familiar, promociones",
+        "name": "Promo Verano Ming",
+        "price_old": 87,
+        "price": 65,
+        "imagen": "1.png"
+    },
+    {
+        "id": 2,
+        "group": "Bebidas, promociones",
+        "name": "Té para 2",
+        "price_old": 42.4,
+        "price": 24,
+        "imagen": "2.png"
+    },
+    {
+        "id": 3,
+        "group": "Bebidas, promociones",
+        "name": "El té de Ming",
+        "price_old": 11,
+        "price": 6,
+        "imagen": "3.png"
+    }
+]
