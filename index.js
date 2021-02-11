@@ -7,6 +7,10 @@ const router = new Router();
 
 const range = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
+router.get("/", (ctx) => {
+  ctx.body = "EC QBO";
+});
+
 router.get("/banners", (ctx) => {
   ctx.body = require("./data/banners.json");
 });
