@@ -30,6 +30,7 @@ router.get("/populars", (ctx) => {
 });
 
 router.get("/products", (ctx) => {
+  /*
   const data = [];
   const categories = [];
 
@@ -60,9 +61,9 @@ router.get("/products", (ctx) => {
       }
     }
     c = range(1, 9);
-  }
+  }*/
 
-  ctx.body = data;
+  ctx.body = require("./data/products.json");
 });
 
 app
